@@ -1,0 +1,103 @@
+/* Variabes */ 
+ 
+/* $orange: #ffa600;
+$grey:#f3f3f3;
+$white: #fff;
+$base-color:$orange ; */
+
+
+/* Mixin's */  
+/* @mixin transition {
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+@mixin corners ($radius) {
+-moz-border-radius: $radius;
+-webkit-border-radius: $radius;
+border-radius: $radius; 
+-khtml-border-radius: $radius; 
+} */
+
+/* body {
+background:yellow;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+}
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:white;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+
+button{
+@include corners (5px);
+background:base-color;
+color:white;
+border: solid 1px white;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+ outline: none;
+}
+  button:hover{
+	@include transition;
+	background:white;
+	border: solid 1px white;
+	color:base-color;
+	} */
+
+
+body{
+  background-color: orange;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100%;
+}
+.wrapper{
+  width: 800px;
+  margin: 130px auto;
+  text-align: center;
+  color: white;
+}
+
+h1,h2,p{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:100;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+button{
+  width: 180px;
+  padding: 18px 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  outline:none;
+  text-decoration: none;
+}
+button:hover{
+  background-color: white;
+  color: orange;
+  border: 1px solid white;
+  
+}
